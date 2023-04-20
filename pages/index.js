@@ -10,6 +10,9 @@ export default function Home() {
   const {login} = useSelector(state => state.auth)
   return (
     <div>
+      <Head>
+        <title>Món quà bất ngờ</title>
+      </Head>
       {!login ? <LoginPage /> : <MainPage />}
     </div>
   )
