@@ -12,6 +12,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Món quà bất ngờ</title>
+        <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+
       </Head>
       {!login ? <LoginPage /> : <MainPage />}
     </div>
